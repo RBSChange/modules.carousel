@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:i18n="http://phptal.motion-twin.com/i18n" xmlns:tal="http://phptal.motion-twin.com/tal" xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal">
+  <tabbox>
+    <tabs>
+      <tab anonid="builder_auto-generated-tab" i18n:attributes="label &amp;modules.website.document.page.GeneralitiesSpaced;" change:icon="information/small shadow"/>
+    </tabs>
+    <tabpanels>
+      <tabpanel anonid="builder_auto-generated-tabpanel" orient="vertical">
+        <grid>
+          <columns>
+            <column/>
+            <column/>
+          </columns>
+          <rows>
+<!--
+Field: label
+Type: String
+Constraints: blank:false;maxSize:255
+Added by Change4 builder on Thu, 11 Jun 2009 09:18:33 GMT
+-->
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="label"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="label"/>
+            </row>
+<!--
+Field: media
+Type: modules_media/media
+Constraints: blank:false
+Added by Change4 builder on Thu, 11 Jun 2009 09:18:33 GMT
+-->
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="media"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="media"/>
+            </row>
+<!--
+Field: link
+Type: modules_website/page
+Constraints: blank:false
+Added by Change4 builder on Thu, 11 Jun 2009 09:18:33 GMT
+-->
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="link"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="link"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+</layout>

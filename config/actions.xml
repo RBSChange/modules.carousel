@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<actions>
+	<action name="createCarousel">
+		<parameter name="listWidget" />
+		<body><![CDATA[this.createDocumentEditor('modules_carousel_carousel', listWidget.getSelectedItems()[0].id);]]></body>
+	</action>
+	<action name="createScreen">
+		<parameter name="listWidget" />
+		<body><![CDATA[this.createDocumentEditor('modules_carousel_screen', listWidget.getSelectedItems()[0].id);]]></body>
+	</action>
+	<action name="createFolder">
+		<parameter name="listWidget" />
+		<body><![CDATA[
+			this.createDocumentEditor('modules_brand_folder', listWidget.getSelectedItems()[0].id);
+		]]></body>
+	</action>
+</actions>

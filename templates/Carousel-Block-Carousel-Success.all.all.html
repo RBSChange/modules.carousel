@@ -1,0 +1,12 @@
+<object	classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" 
+		tal:attributes=" width item/getWidth; height item/getHeight"
+		id="carousel_${item/getId}_${item/getLang}"
+		align="middle">
+	<param name="movie" tal:attributes="value item/getSwfLink" />
+	<param name="quality" value="high" />
+	<param name="flashvars" value="urlXML=${item/getXmlLink}" />
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="wmode" value="transparent" />
+	
+	<embed wmode="transparent" tal:attributes=" width item/getWidth; height item/getHeight; src item/getSwfLink" id="carousel_${item/getId}" quality="high" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="urlXML=${item/getXmlLink}"></embed>  
+</object>

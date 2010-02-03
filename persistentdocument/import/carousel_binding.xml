@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<script>
+  <binding fileName="modules/generic/persistentdocument/import/generic_binding.xml"/>
+  <binding name="carousel" className="carousel_CarouselScriptDocumentElement"/>
+  <binding name="screen" className="carousel_ScreenScriptDocumentElement"/>
+  <binding name="carousel" className="carousel_CarouselScriptDocumentElement"/>
+</script>

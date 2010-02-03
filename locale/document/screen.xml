@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="label">
+    <locale lang="fr">titre</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">label-help</locale>
+  </entity>
+  <entity id="author">
+    <locale lang="fr">author</locale>
+  </entity>
+  <entity id="author-help">
+    <locale lang="fr">author-help</locale>
+  </entity>
+  <entity id="creationdate">
+    <locale lang="fr">creationdate</locale>
+  </entity>
+  <entity id="creationdate-help">
+    <locale lang="fr">creationdate-help</locale>
+  </entity>
+  <entity id="modificationdate">
+    <locale lang="fr">modificationdate</locale>
+  </entity>
+  <entity id="modificationdate-help">
+    <locale lang="fr">modificationdate-help</locale>
+  </entity>
+  <entity id="publicationstatus">
+    <locale lang="fr">publicationstatus</locale>
+  </entity>
+  <entity id="publicationstatus-help">
+    <locale lang="fr">publicationstatus-help</locale>
+  </entity>
+  <entity id="lang">
+    <locale lang="fr">lang</locale>
+  </entity>
+  <entity id="lang-help">
+    <locale lang="fr">lang-help</locale>
+  </entity>
+  <entity id="modelversion">
+    <locale lang="fr">modelversion</locale>
+  </entity>
+  <entity id="modelversion-help">
+    <locale lang="fr">modelversion-help</locale>
+  </entity>
+  <entity id="documentversion">
+    <locale lang="fr">documentversion</locale>
+  </entity>
+  <entity id="documentversion-help">
+    <locale lang="fr">documentversion-help</locale>
+  </entity>
+  <entity id="startpublicationdate">
+    <locale lang="fr">startpublicationdate</locale>
+  </entity>
+  <entity id="startpublicationdate-help">
+    <locale lang="fr">startpublicationdate-help</locale>
+  </entity>
+  <entity id="endpublicationdate">
+    <locale lang="fr">endpublicationdate</locale>
+  </entity>
+  <entity id="endpublicationdate-help">
+    <locale lang="fr">endpublicationdate-help</locale>
+  </entity>
+  <entity id="media">
+    <locale lang="fr">media</locale>
+  </entity>
+  <entity id="media-help">
+    <locale lang="fr">media-help</locale>
+  </entity>
+  <entity id="link">
+    <locale lang="fr">lien</locale>
+  </entity>
+  <entity id="link-help">
+    <locale lang="fr">glisser une page ou une page externe</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés d'un écran</locale>
+  </entity>
+</localization>

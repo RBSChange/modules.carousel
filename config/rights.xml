@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @license
+ Logiciel RBS Change© Société RBS, 2006-2007.
+ Le logiciel ne peut être copié, corrigé, traduit ou modifié sans l'autorisation
+ préalable de l'auteur selon le Code de la Propriété Intellectuelle (http://www.celog.fr/cpi/).
+ Consulter les Dispositions Générales de droit d'exploitation.
+ Tout contrefacteur pourra faire l’objet de poursuites judiciaires par la société RBS, auteur du logiciel.
+ -
+ RBS Change™, © 2006-2007 Ready Business System.
+ This application can not be copied, changed, translated, or modified in any way without
+ prior authorization from RBS, the author of the application, according to the French Code
+ of Intellectual Property (http://www.celog.fr/cpi/). Consult the Code's General Dispositions
+ about rights of use.
+ Any use of this application without prior authorization from RBS will be subject to legal
+ prosecution to the full extent of the law.
+ 
+ @copyright RBS 2006-2007
+-->
+<rights>
+	<actions>
+		<!--document name="rootfolder" /-->
+	</actions>
+
+	<roles>	
+		<role name="Admin">
+			<permission name="*" />
+			<permission name="LoadPermissions.*" />
+			<permission name="SavePermissions.*" />
+			<permission name="GetPreferencesDocument" />
+		</role>
+		
+		<role name="Writer" extend="User">
+			<permission name="Enabled" />
+			<permission name="Order" />
+			<permission name="Move.*" />
+			<permission name="Load.*" />
+			<permission name="Rename.*" />
+			<permission name="PutInTrash.*" />
+			<permission name="Delete.*" />
+			<permission name="Insert.*" />
+			<permission name="Update.*" />
+		</role>
+		
+		<role name="Translator" extend="User">
+			<permission name="Enabled" />	
+			<permission name="LoadForTranslation.*" />
+			<permission name="UpdateTranslation.*" />
+		</role>
+		
+		<role name="Validator" extend="User">
+			<permission name="Enabled" />
+			<permission name="Activate.*" />
+			<permission name="Cancel.*" />		
+		</role>
+		
+		<role name="User">
+			<permission name="List.*" />
+		</role>
+	</roles>
+</rights>

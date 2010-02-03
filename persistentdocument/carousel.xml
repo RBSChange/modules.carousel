@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/1.0.xsd" model-version="1.0" icon="carousel">
+	<properties>
+		<add name="label" type="String" min-occurs="1" max-occurs="1" localized="true" />
+		<add name="width" type="Integer" default-value="654" min-occurs="1" />
+		<add name="height" type="Integer" default-value="300" min-occurs="1" />
+		<add name="radiusX" type="Integer" default-value="240" min-occurs="1" />
+		<add name="radiusY" type="Integer" default-value="50" min-occurs="1" />
+		<add name="centerX" type="Integer" default-value="327" min-occurs="1" />
+		<add name="centerY" type="Integer" default-value="220" min-occurs="1" />
+		<add name="speed" type="Double" default-value="0.01" min-occurs="1" />
+		<add name="imageWidth" type="Integer" default-value="180" min-occurs="1" />
+		<add name="reflectionHeight" type="Integer" default-value="40" min-occurs="1" />
+		<add name="perspectiv" type="Integer" default-value="-100" min-occurs="1" />
+	</properties>
+	<statuses default="PUBLICATED" />
+	<children>
+		<child name="screens" type="modules_carousel/screen" />
+	</children>
+</document>
