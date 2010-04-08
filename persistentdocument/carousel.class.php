@@ -9,17 +9,17 @@ class carousel_persistentdocument_carousel extends carousel_persistentdocument_c
 	{
 		$lang = RequestContext::getInstance()->getLang();
 		$id = $this->getId();
-		return DIRECTORY_SEPARATOR . 'cache' . DIRECTORY_SEPARATOR . 'xml' . DIRECTORY_SEPARATOR . 'carousel_thumbnail_'.$id.'_'.$lang.'.xml';
+		return 'carousel_thumbnail_'.$id.'_'.$lang.'.xml';
 	}
 	
 	public function getXmlLink()
 	{
-		return website_WebsiteModuleService::getInstance()->getDefaultWebsite()->getUrl() . $this->buldXmlPath();
+		return LinkHelper::getRessourceLink('/cache/www/xml/' . $this->buldXmlPath())->getUrl();
 	}
 	
 	public function getXmlPath()
 	{
-		return WEBAPP_HOME . DIRECTORY_SEPARATOR . 'www' . $this->buldXmlPath();
+		return f_util_FileUtils::buildWebCachePath('xml', $this->buldXmlPath());
 	}
 	
 	public function getSwfLink()
