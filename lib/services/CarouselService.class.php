@@ -1,24 +1,6 @@
 <?php
 /**
- * @license
- * Logiciel RBS Change© Société RBS, 2006-2007.
- * Le logiciel ne peut être copié, corrigé, traduit ou modifié sans l'autorisation
- * préalable de l'auteur selon le Code de la Propriété Intellectuelle (http://www.celog.fr/cpi/).
- * Consulter les Dispositions Générales de droit d'exploitation.
- * Tout contrefacteur pourra faire l’objet de poursuites judiciaires par la société RBS, auteur du logiciel.
- * --
- * RBS Change™, © 2006-2007 Ready Business System.
- * This application can not be copied, changed, translated, or modified in any way without
- * prior authorization from RBS, the author of the application, according to the French Code
- * of Intellectual Property (http://www.celog.fr/cpi/). Consult the Code's General Dispositions
- * about rights of use.
- * Any use of this application without prior authorization from RBS will be subject to legal
- * prosecution to the full extent of the law.
- *
- * @copyright RBS 2006-2007
- * @date Thu, 11 Jun 2009 09:05:16 +0000
- * @author intclail
- * @package 
+ * @package modules.carousel 
  */
 class carousel_CarouselService extends f_persistentdocument_DocumentService
 {
@@ -95,7 +77,7 @@ class carousel_CarouselService extends f_persistentdocument_DocumentService
 				
 				try
 				{
-					f_util_FileUtils::saveFile($document->getXmlPath(), $content);	
+					f_util_FileUtils::write($document->getXmlPath(), $content);	
 				}
 				catch (Exception $e)
 				{
