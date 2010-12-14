@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.carousel.document.screen" lcid="fr_FR">
+  <key id="label">titre</key>
+  <key id="label-help">label-help</key>
+  <key id="author">author</key>
+  <key id="author-help">author-help</key>
+  <key id="creationdate">creationdate</key>
+  <key id="creationdate-help">creationdate-help</key>
+  <key id="modificationdate">modificationdate</key>
+  <key id="modificationdate-help">modificationdate-help</key>
+  <key id="publicationstatus">publicationstatus</key>
+  <key id="publicationstatus-help">publicationstatus-help</key>
+  <key id="lang">lang</key>
+  <key id="lang-help">lang-help</key>
+  <key id="modelversion">modelversion</key>
+  <key id="modelversion-help">modelversion-help</key>
+  <key id="documentversion">documentversion</key>
+  <key id="documentversion-help">documentversion-help</key>
+  <key id="startpublicationdate">startpublicationdate</key>
+  <key id="startpublicationdate-help">startpublicationdate-help</key>
+  <key id="endpublicationdate">endpublicationdate</key>
+  <key id="endpublicationdate-help">endpublicationdate-help</key>
+  <key id="media">media</key>
+  <key id="media-help">media-help</key>
+  <key id="link">lien</key>
+  <key id="link-help">glisser une page ou une page externe</key>
+  <key id="edition-form-title">propriétés d'un écran</key>
+</i18n>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.carousel.bo.tags" lcid="en_GB">
+  <key id="carousel-pagelist">list page</key>
+  <key id="carousel-pagedetail">detail page</key>
+</i18n>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.carousel.bo.general" lcid="en_GB">
+  <key id="module-name">carousel</key>
+  <key id="tree-root-name">carousel</key>
+  <key id="system-folder-name">carousel</key>
+</i18n>
